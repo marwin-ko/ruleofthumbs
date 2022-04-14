@@ -1,0 +1,13 @@
+Ref - https://medium.com/tompee/creating-your-own-http-api-wrapper-library-design-patterns-10b2e232e92d
+List of Design Patterns
+- factory
+  - An isolated class which performs a function (e.g. ETL) and is inherited in other user-facing classes/functions.
+- singleton
+  - single instance only (space saver?)
+- builder
+  - decoupled classes for flexibility and customization
+- 
+
+
+
+
