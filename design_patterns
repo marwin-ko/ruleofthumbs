@@ -1,12 +1,29 @@
 Ref - https://medium.com/tompee/creating-your-own-http-api-wrapper-library-design-patterns-10b2e232e92d
+1. Creational Patterns provides a way to create objects by abstracting the logic and intricacies from the client. It delegates the responsibility of instantiating (or reusing) objects away from the client.
+2. Structural Patterns concern themselves with defining relationships between objects and classes.
+3. Behavioral Patterns are concerned with the communication between objects.
+4. Command Pattern uses receiver (target object), command (perfom action towards reciever), invoker (class to invoke command).
+
 List of Design Patterns
-- factory
-  - An isolated class which performs a function (e.g. ETL) and is inherited in other user-facing classes/functions.
-- singleton
-  - single instance only (space saver?)
-- builder
-  - decoupled classes for flexibility and customization
-- 
+1. Creational Patterns 
+  - Factory
+    - Provides an object without exposing the instantiation process. Returned objects can be referred through a common interface.
+    - Example: An isolated class which performs a function (e.g. ETL) and is inherited in other user-facing classes/functions.
+  - Singleton
+    - single instance only (space saver?)
+  - Builder
+    - decoupled classes for flexibility and customization
+2. Structural Patterns
+  - Bridge
+    - Decouples an abstraction from the implementation and introduces a bridge between them.
+  -  Facade
+    - Hides the complexity of a system and exposes only the minimum set of interface to interact with it.
+    - Example: Classes that just house functions and added as a variable in another class for usage!
+  - Adapter
+    - acts as an adapter for 2 incompatible interfaces.
+3. Behavioral Patterns
+4. Command Pattern
+  - Refer to example in the reference at top.
 
 
 
